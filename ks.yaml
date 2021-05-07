@@ -18,5 +18,5 @@ spec:
       name: podinfo
     patch:
     - op: add
-      path: /metadata/labels/app.kubernetes.io~1instance
+      path: "/metadata/labels/app.kubernetes.io~1instance"
       value: podinfo
