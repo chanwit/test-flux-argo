@@ -11,12 +11,4 @@ spec:
   sourceRef:
     kind: GitRepository
     name: podinfo
-  patchesJson6902:
-  - target:
-      version: apps/v1
-      kind: Deployment
-      name: backend
-    patch:
-    - op: add
-      path: "/metadata/labels/app.kubernetes.io~1instance"
-      value: podinfo
+ 
