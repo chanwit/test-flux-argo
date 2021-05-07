@@ -15,7 +15,7 @@ spec:
   - target:
       version: apps/v1
       kind: Deployment
-      name: podinfo
+      name: backend
     patch:
     - op: add
       path: "/metadata/labels/app.kubernetes.io~1instance"
