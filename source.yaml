@@ -4,6 +4,8 @@ kind: GitRepository
 metadata:
   name: podinfo
   namespace: dev
+  annotations:
+    inferred-parent-of: podinfo
 spec:
   interval: 1m0s
   ref:
